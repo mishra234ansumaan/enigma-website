@@ -59,6 +59,7 @@ nav {
   position: fixed; top: 2px; left: 0; right: 0;
   z-index: 1000;
   background: rgba(7,10,15,.85);
+  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border);
   padding: 0 2rem;
